@@ -1,4 +1,4 @@
-# Ubuntu Flavor Installer
+# Ubuntu Budgie Installer
 
 [Ubuntu Desktop Installer](https://github.com/canonical/ubuntu-desktop-installer)
 starting point for Ubuntu flavors.
@@ -29,7 +29,7 @@ starting point for Ubuntu flavors.
 
 ## Look and feel
 
-The desktop installer has an entry point that allows passing in the name of the flavor displayed throughout the installation wizard, the desired flavor-specific theme, and the flavor’s own installation slides together with delegates for localization.
+Ubuntu Budgie Installer passes in the name of the flavor displayed throughout the installation wizard, the desired yaru budgie-specific theme, and the ubuntu budgie’s own installation slides together with delegates for localization.
 
 ```dart
 import 'package:ubuntu_desktop_installer/installer.dart';
@@ -43,8 +43,8 @@ Future<void> main(List<String> args) {
     args,
     flavor: FlavorData(
       name: 'Ubuntu FLAVOR',
-      theme: yaruMagentaLight,
-      darkTheme: yaruMagentaDark,
+      theme: yaruUbuntuBudgieLight,
+      darkTheme: yaruUbuntuBudgieDark,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
     ),
     slides: [
