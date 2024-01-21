@@ -5,6 +5,7 @@ bootstrap:
     - network
     - timezone
     - identity
+    - active_directory
     - source
     - storage
     - confirm
